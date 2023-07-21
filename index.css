@@ -1,0 +1,84 @@
+.header{
+    width:100%;
+    color: white;
+    padding: 20px;
+    background: rgb(3, 106, 3);
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu{
+    margin-left: 50px;
+}
+.container{
+    max-width: 1140px;
+    padding: 15px;
+    margin: auto;
+}
+.branner-title, .banner-description{
+text-align: center;
+color: white;
+}
+.branner-title{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.branner-section{
+    padding: 100pz 0;
+    background: url(img/1672234678_flomaster-club-p-lyagushka-risunok-dlya-detei-instagram-20.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+height: 100px;
+flex-flow: row wrap;
+}
+.card{
+    background: paleturquoise;
+     width: 25%;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 2px 40px 0px rgb(17, 227, 126);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards-section{
+    padding: 50px;
+}
+.cards-title, .cards-description{
+    color: rgb(42, 114, 88);
+    text-align: center;
+    font-family: fantasy;
+}
+.card-link{
+    text-decoration: none;
+    color: rgb(26, 114, 42);
+}
+.card-button{
+    text-align: center;
+    background: rgb(176, 229, 238);
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.footer{
+    padding: 100px 0px;
+    background: rgb(3, 106, 3);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
